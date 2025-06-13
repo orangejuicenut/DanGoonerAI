@@ -5,7 +5,7 @@ Copies tags from Danbooru for use in NovelAI
 
 This piece of crap software is very bad, run at own risk. I don't even know how to compile it into a real extension. 
 
-1. Go to chrome://extensions/
+1. Go to `chrome://extensions/`
 2. Enable "Developer mode"
 3. Click "Load unpacked" and select the folder
 
