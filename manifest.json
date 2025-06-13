@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "Danbooru to NovelAI Tag Formatter",
+  "version": "1.0",
+  "description": "Extract and format Danbooru tags for NovelAI image generation",
+  "permissions": [
+    "activeTab",
+    "storage"
+  ],
+  "host_permissions": [
+    "https://danbooru.donmai.us/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Format Danbooru Tags"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://danbooru.donmai.us/posts/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
