@@ -1,6 +1,8 @@
 # DanGoonerAI
 Copies tags from Danbooru for use in NovelAI
 
+I did use Claude to make this, don't go around thinking I am any good at programming lmao. 
+
 ## Instructions:
 
 This piece of crap software is very bad, run at own risk. I don't even know how to compile it into a real extension. 
